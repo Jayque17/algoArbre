@@ -1,0 +1,29 @@
+
+a/
+racine : A                          Noeud qui n'a pas de parent.
+feuilles : H N I E D                Noeuds qui n'ont pas de fils.
+noeuds de hauteur 2 : Z E C         Noeuds en partant des feuilles.
+noeuds de niveau 3 : J              Noeuds en partant de la racine. 
+noeuds sur le chemin A -> J : Z E
+
+b/
+nb noeuds : 12                      Feuilles + noeuds interne.
+nb noeuds internes : 7              Tout noeud d'un arbre qui n'est pas une feuille
+                                    est un noeud interne.
+nb feuilles : 5
+
+c/
+Parcours en profondeur
+prefixe (racine -> sous arb g -> sous arb d) : A Z X H N E J I C G E D
+infixe (sous arb g -> racine -> sous arb d) : H X N Z I J E A E G D C
+suffixe (sous arb g -> sous arb d -> racine) : H N X I J E Z E D G C A
+
+d/
+Parcours en largeur
+A Z  C X E G H N J E D I
+
+e/
+Hauteur arbre à 1 feuille (racine) : 0
+Hauteur arbre vide : -1 
+Hauteur de l'arbre : 4
+Hauteur du noeud d'étiquette Z : 3
